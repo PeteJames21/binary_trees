@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /**
- * binary_tree_insert_left - insert node as the left-child
+ * binary_tree_insert_right - insert node as the left-child
  * @parent: a pointer to the parent node
  * @value: the value of the new child
  * Return: a pointer to the newly added child node
-
+ *
  * Description: If @parent already has a right-child, the new node takes
- * its place, and the old right-child must be set as the right-child of 
+ * its place, and the old right-child must be set as the right-child of
  * the new node.
  */
 binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value)
