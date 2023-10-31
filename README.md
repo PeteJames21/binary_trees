@@ -9,3 +9,6 @@ Write a function that inserts a node as the left-child of another node. If the p
 
 ## 2-binary_tree_insert_right.c
 Write a function that inserts a node as the right-child of another node. If the parent already has a right-child, the new node must take its place, and the old right-child must be set as the right-child of the new node.
+
+## 3-binary_tree_delete.c
+Write a function that deletes an entire binary tree.
