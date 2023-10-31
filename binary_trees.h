@@ -19,7 +19,14 @@ struct binary_tree_s
 
 typedef struct binary_tree_s binary_tree_t;
 
+/* Binary tree insertion operations */
+binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
+binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);
+
+/* Binary tree node creation function */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
+
+/* Binary tree helper functions */
 void binary_tree_print(const binary_tree_t *);
 
 
