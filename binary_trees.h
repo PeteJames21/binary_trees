@@ -28,8 +28,9 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
 int binary_tree_is_leaf(const binary_tree_t *node);
 int binary_tree_is_root(const binary_tree_t *node);
 
-/* Binary tree helper functions */
+/* Functions for operation on the entire tree */
 void binary_tree_delete(binary_tree_t *tree);
+void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 void binary_tree_print(const binary_tree_t *);
 int binary_tree_is_root(const binary_tree_t *node);
 
