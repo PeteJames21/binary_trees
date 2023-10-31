@@ -6,7 +6,7 @@
  * @func: a pointer to the function to be applied to each node
  *
  * Description - the tree is traversed in preorder fashion. No error occurs
- * if the @tree or @func is NULL 
+ * if the @tree or @func is NULL
  */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 {
