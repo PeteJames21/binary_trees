@@ -21,3 +21,9 @@ Write a function that checks if a given node is a root.
 
 ## 6-binary_tree_preorder.c
 Write a function that goes through a binary tree using pre-order traversal.
+
+## 7-binary_tree_inorder.c
+Write a function that goes through a binary tree using in-order traversal.
+
+## 7-binary_tree_postorder.c
+Write a function that goes through a binary tree using post-order traversal.
