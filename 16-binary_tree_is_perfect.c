@@ -1,5 +1,4 @@
 #include "binary_trees.h"
-#include <stdio.h>
 #include <stddef.h>
 
 /**
@@ -104,7 +103,6 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 
 	depth = binary_tree_height(tree) - 1;
 	is_full = binary_tree_is_full(tree);
-	printf("depth: %d\nis_full: %d\n", depth, is_full);
 
 	/* Check if all leaf nodes are at the same level */
 	return (is_full && is_perfect_recursive(tree, depth, 0));
