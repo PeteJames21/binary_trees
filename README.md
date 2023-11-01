@@ -47,4 +47,7 @@ Write a function that counts the nodes with at least 1 child in a binary tree
 Write a function that measures the balance factor of a binary tree.
 
 ## 15-binary_tree_is_full.c
-Write a function that checks if a binary tree is full
+Write a function that checks if a binary tree is full.
+
+## 17-binary_tree_sibling.c
+Write a function that finds the sibling of a node.
