@@ -36,3 +36,6 @@ Write a function that measures the depth of a node in a binary tree.
 
 ## 11-binary_tree_size.c
 Write a function that measures the size of a binary tree.
+
+## 12-binary_tree_leaves.c
+Write a function that counts the leaves in a binary tree.
