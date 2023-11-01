@@ -51,3 +51,6 @@ Write a function that checks if a binary tree is full.
 
 ## 17-binary_tree_sibling.c
 Write a function that finds the sibling of a node.
+
+## 18-binary_tree_uncle.c
+Write a function that finds the uncle of a node
