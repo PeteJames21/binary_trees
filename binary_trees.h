@@ -31,6 +31,7 @@ int binary_tree_is_leaf(const binary_tree_t *node);
 int binary_tree_is_root(const binary_tree_t *node);
 
 /* Functions for operation on the entire tree */
+int binary_tree_balance(const binary_tree_t *tree);
 void binary_tree_delete(binary_tree_t *tree);
 size_t binary_tree_depth(const binary_tree_t *tree);
 size_t binary_tree_height(const binary_tree_t *tree);
