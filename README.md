@@ -63,3 +63,6 @@ Write a function that finds the lowest common ancestor of two nodes.
 
 ## 103-binary_tree_rotate_left.c
 Write a function that performs a left-rotation on a binary tree.
+
+## 104-binary_tree_rotate_right.c
+Write a function that performs a right-rotation on a binary tree.
