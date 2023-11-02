@@ -57,3 +57,6 @@ Write a function that finds the sibling of a node.
 
 ## 18-binary_tree_uncle.c
 Write a function that finds the uncle of a node
+
+## 100-binary_trees_ancestor.c
+Write a function that finds the lowest common ancestor of two nodes
