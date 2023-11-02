@@ -59,4 +59,7 @@ Write a function that finds the sibling of a node.
 Write a function that finds the uncle of a node
 
 ## 100-binary_trees_ancestor.c
-Write a function that finds the lowest common ancestor of two nodes
+Write a function that finds the lowest common ancestor of two nodes.
+
+## 103-binary_tree_rotate_left.c
+Write a function that performs a left-rotation on a binary tree.
